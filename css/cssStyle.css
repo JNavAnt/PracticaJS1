@@ -1,0 +1,205 @@
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+.main-header{
+
+}
+
+.logo{
+	background-color: #32618D;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.social{
+	position: absolute;
+	top: 40px;
+	right: 30px;
+	font-size: 28px;
+}
+
+.social a{
+	color: #8D9EBE;
+	text-decoration: none;
+}
+
+.main-menu{
+	text-align: center;
+}
+
+.main-menu ul{
+	list-style: none;
+}
+
+.main-menu ul li{
+	display: inline-block;
+	margin: 5px 10px;
+}
+.main-menu ul li a{
+	text-decoration: none;
+	color:#1e3b71;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	transition: all 0.2s ease-in; 
+	font-weight: 700; 
+}
+
+.main-menu ul li a:hover{
+	color:#8DABC2;
+	border-bottom: 2PX solid #8DABC2;
+}
+
+.slider img{
+	width: 100%;
+}
+
+.container{
+	width: 1170px;
+	overflow: hidden;
+	margin-right: 1170px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.card{
+	width: 300px;
+	border: 1px solid red;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.card-hero{
+	position: relative;
+}
+
+.card-hero img{
+	width: 100%;
+}
+
+.card-hero:hover .btn-card-show{
+	display: block;
+}
+
+.btn-card-show{
+	background-color: #FFB606;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 20px;
+	width: 100px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -50px;
+	display: none;
+}
+
+.btn-card-show:hover {
+background-color: #E0A006;
+}
+
+.card-body{
+
+}
+
+.card-title{
+	text-align: center;
+}
+
+.card-title::after{
+	content: '';
+	background-color: green;
+	height:2px;
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 3px;
+}
+
+
+
+.card-list{
+	color: #999;
+	list-style: none;
+	text-align: center;
+	padding: 0px;
+}
+
+.card-list li{
+	padding-bottom: 5px;
+}
+
+.contact .container{
+	display: flex;
+	justify-content: space-around;
+}
+.title-section{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.oferta-academica .container{
+	display: flex;
+	justify-content: space-between;
+}
+.title-oferta-academica{
+	color: #32618D;
+}
+
+.title-contact{
+	background-color: #8dabc2;
+	color: white;
+}
+
+.img-contact{
+	margin: 0;
+}
+
+.img-contact img{
+	width: 100%
+}
+
+.contact-form{
+	display:flex;
+	flex-direction: column;
+	padding: 0 20px 30px;
+}
+
+.contact-form input[type="text"]{
+	display: block;
+}
+
+.form-control{
+	border: 1px solid #ccc;
+	font-size: 16px;
+	width: 100%;
+	margin: 7px 0;
+	padding: 10px 0;
+	border-radius: 5px;
+}
+
+.btn-contact{
+	background-color: #32618D;
+	color: white;
+	font-style: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer{
+	background-color: #32818d;
+	color: white;
+	text-align: center;
+	font-size: 10px; 
+	padding: 15px;
+	margin: 10px;
+}
